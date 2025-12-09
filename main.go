@@ -42,7 +42,7 @@ func NewMysqLServer() *MysqlServer {
 		Hostname: "localhost",
 		Dbname:   "hamradio",
 		Dbuser:   "admin",
-		Dbpass:   "nskdm1153",
+		Dbpass:   "<your local db passwd>",
 	}
 }
 
