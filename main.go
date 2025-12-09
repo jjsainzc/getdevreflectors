@@ -23,7 +23,7 @@ import (
 var (
 	DBWriter *MysqlServer
 	DBWrite  *sql.DB
-	Token    string   = "ee776f0d5ddce1f4acd1b99fce959e185c032a9e"
+	Token    string   = "<your token>"
 	YSFUrl   string   = "https://dvref.com/ysf/reflectors/?include_description=true"
 	NXDNUrl  string   = "https://dvref.com/nxdn/reflectors/?include_description=true"
 	URFUrl   string   = "https://dvref.com/urfd/reflectors/?include_description=true&mode=%s&resolve_ips=true"
